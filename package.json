@@ -1,0 +1,20 @@
+{
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "build:client": "cd client && yarn && yarn build",
+    "build:server": "cd server && yarn",
+    "build": "yarn build:client && yarn build:server",
+    "start": "cd server && yarn start",
+
+    "dev:client": "cd client && yarn start",
+    "dev:server": "cd server && yarn dev",
+    "dev": "yarn dev:client & yarn dev:server",
+
+    "init:client": "cd client && yarn",
+    "init:server": "cd server && yarn",
+    "install": "yarn init:client & yarn init:server"
+  }
+}

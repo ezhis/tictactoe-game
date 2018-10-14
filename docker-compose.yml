@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+    container_name: tictaktoe-fe
+    environment:
+      - PORT=8080
+      - API_URL=localhost:8080
+    ports:
+      - 8081:8080
