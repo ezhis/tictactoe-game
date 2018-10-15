@@ -1,6 +1,6 @@
 # Tic Tac Toe 
 Simple tic-tac-toe game, implemented using React, Redux and Docker.
-All actions are loged in separate backend. Backend project is available here: 
+All actions are logged in separate backend. Backend project is available here: 
 
 Logs are displayed under the game, and these logs are taken back from Backend using SSE (server send events). 
 
